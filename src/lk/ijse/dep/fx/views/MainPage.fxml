@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.fx.controllers.MainPageController">
+   <children>
+      <Button fx:id="btnManageCustomers" layoutX="66.0" layoutY="92.0" mnemonicParsing="false" onAction="#clickManageCustomers" prefHeight="26.0" prefWidth="141.0" text="Manage Customers">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="247.0" layoutY="92.0" mnemonicParsing="false" onAction="#ClickManageitems" prefHeight="26.0" prefWidth="141.0" text="Manage Items">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="66.0" layoutY="219.0" mnemonicParsing="false" onAction="#ClickPlaceOrder" prefHeight="10.0" prefWidth="141.0" text="Place Order">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="247.0" layoutY="219.0" mnemonicParsing="false" onAction="#clickViewOrders" prefHeight="15.0" prefWidth="141.0" text="View Orders">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="247.0" layoutY="349.0" mnemonicParsing="false" onAction="#clickLogOut" prefHeight="14.0" prefWidth="141.0" text="Log Out">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="66.0" layoutY="349.0" mnemonicParsing="false" onAction="#clickOnSettingButton" prefHeight="26.0" prefWidth="141.0" text="Settings">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="94.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Customers.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="277.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Items.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="98.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Place%20Order.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="277.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/view%20Order.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="98.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/settings.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="277.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/log%20out.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
